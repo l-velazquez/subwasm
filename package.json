@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "test": "node --test",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ffmpeg/ffmpeg": "0.12.15",
-    "@ffmpeg/util": "0.12.2"
+    "@ffmpeg/ffmpeg": "0.12.15"
   },
   "devDependencies": {
     "vite": "6.4.3"
