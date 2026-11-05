@@ -35,6 +35,9 @@ jobs:
         env:
           VITE_BASE_PATH: /subwasm/
 
+      - name: Test subtitle handling
+        run: npm test
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
